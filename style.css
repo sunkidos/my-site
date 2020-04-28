@@ -29,19 +29,23 @@ body {
 }
 
 .container {
+
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
+
 }
 
 .page-header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
 
+
 }
 
 .page-header .container,
 .page-footer .container {
+  font-size: 25px;
   max-width: 1408px;
   text-align: right;
 }
@@ -59,14 +63,14 @@ body {
   display: inline-block;
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
-
+  background-size: 22px;
 }
 
 .header-phone {
   display: inline-block;
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
-
+  background-size: 22px;
 }
 
 .hero-image {
@@ -209,13 +213,14 @@ body {
 
 .footer-email {
   display: inline-block;
-
   padding-left: 30px;
   background-image: url("img/icon-email-footer.svg");
+  background-size: 22px;
 }
 
 .footer-phone {
   display: inline-block;
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+  background-size: 22px;
 }
