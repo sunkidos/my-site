@@ -37,6 +37,7 @@ body {
 .page-header {
   margin: 0 0 160px;
   padding: 32px 0 32px;
+
 }
 
 .page-header .container,
@@ -51,16 +52,20 @@ body {
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
+
 }
 
 .header-email {
   padding-left: 30px;
   background-image: url("img/icon-email-header.svg");
+
 }
 
 .header-phone {
+  display: inline-block;
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
+
 }
 
 .hero-image {
@@ -176,6 +181,7 @@ body {
 }
 
 .button {
+  margin-bottom: 24px;
   padding: 6px 20px;
   display: inline-block;
   vertical-align: baseline;
@@ -206,6 +212,7 @@ body {
 }
 
 .footer-phone {
+  display: inline-block;
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
